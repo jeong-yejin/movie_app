@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+* {
+    font-family: 'Luckiest Guy', cursive;
+}
+body {
+    color: black;
+}
+
+.logo {
+    position : relative;
+    display : flex;
+  
+    
+}
+.logo a{
+    background: transparent;
+    color:black; 
+    text-align: left;
+    font-size: 50px;
+	font-style: bold;
+    margin-top: 30px;
+    margin-left: 40px;
+    text-decoration: none;
+}
+div.profile-aria{
+    /*레이아웃 설정*/
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%)
+}
+p.tv {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 10px;
+    margin-left: 35px;
+}
+li {
+    /*list 가로 배열*/
+    float: left; 
+    /* 문장 앞에 있는 마커 설정을 없앰; */
+    list-style: none; 
+    margin: 10px; 
+    /* 줄바꿈 설정 */
+    display: block;
+}
+div.profile {
+    width: 150px; 
+    height: 200px; 
+    background: transparent;
+}
+div.profile-card{
+    width: 150px; 
+    height: 150px;
+    margin-left: 80px;
+    background: black;
+}
+p.profile-card {
+    
+    margin-left: 85px;
+    
+}
+p.profile-card img {
+    position: absolute;
+    top: 148px;
+    object-fit: cover;
+    margin-bottom: 90px;
+    width: 150px;
+    height: 130px;
+    margin-left: 0.001em;
+    opacity: 100px;
+}
+
+div.button {
+    width: 120px;
+    height: 50px;
+    margin-left: 40%; 
+    margin-top: 30%;
+    text-align: center;
+    padding: 8px;
+    border: 1px solid black;
+}

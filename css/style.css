@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+* {
+    font-family: 'Luckiest Guy', cursive;
+    box-sizing: border-box;
+    
+}
+  
+.navbar {
+    justify-content: space-between;
+    display: flex;
+}
+
+.navbar ul{
+    float: right;
+    align-items: right;
+    font-size: 30px;
+    margin-top: 5px;
+  }
+  
+  .navbar li{
+    list-style-type: none;
+    float: left;
+    margin-right: 20px;
+    
+  }
+  
+  .navbar a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .home{
+    position : relative;
+    display : flex;
+    margin-left: 50px;
+    
+  }
+
+  .home a{
+    font-size: 40px;
+    color: black;
+    margin-top: 90px;
+    text-decoration: none;
+  }
+
+.title{
+  position: relative;
+}
+
+.title h1{
+    padding: 9px;
+    
+    line-height: 60px;
+    color: black;
+    text-align: center;
+    font-size: 250px;
+    font-style: oblique;
+    text-shadow: 16px 0 rgb(163, 163, 163), 16px 0 rgb(163, 163, 163),0 -1px rgb(163, 163, 163);
+    position: relative;
+}
+.about {
+  position : relative;
+  display : flex;
+  margin-left: 40px;
+  padding-top: 20px;
+  
+}
+
+.about a {
+  font-size: 40px;
+  color: black;
+  left: 3px;
+  text-decoration: none;
+}
+.dropdown{
+    position : relative;
+    display : inline-block;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  
+  .dropbtn_icon{
+    font-size: 40px;
+  }
+
+  
+  .dropbtn{
+    border : 1px  white;
+    border-radius : 20px;
+    background-color: transparent !important;
+    border-color: transparent !important;
+    font-weight: 300;
+    color : black;
+    padding : 2px;
+    width :200px;
+    margin-left: 1px;
+    text-align: left;
+    cursor : pointer;
+    font-size : 40px;
+   
+  }
+  .dropdown-content{
+    display : none;
+    border-radius: 20px;
+    position : absolute;
+    z-index : 1; /*다른 요소들보다 앞에 배치*/
+    font-weight: 400;
+    background-color: rgb(235, 235, 235);
+    min-width : 200px;
+    opacity: 0.9;
+  }
+  
+  .dropdown-content a{
+    display : block;
+    text-decoration : none;
+    color : rgb(37, 37, 37);
+    font-size: 30px;
+    padding : 12px 20px;
+    border-radius: 20px;
+  }
+  
+  .dropdown-content a:hover{
+    background-color : #ffffff
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
